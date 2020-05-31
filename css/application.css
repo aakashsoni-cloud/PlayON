@@ -112,12 +112,12 @@ casset-img{
 }
 
 .icon {
-    color: #F8C291;
+    color: #f8c291;
     margin-bottom: 1rem;
 }
 
 .icon:hover {
-    color: #e58e26;
+    color: #fad390;
     transition-property: color;
     transition-duration: 0.5s;
     transition-delay: .1s;
