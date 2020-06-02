@@ -34,7 +34,7 @@
 </head>
 
  <body data-spy="scroll" data-target="#main-nav" data-offset="91" class="false">
-            <!--Preload-->
+            <!-- Preload -->
         <!-- <div class="preloader">
             <div class="preloader_image">
                 <div class="sk-double-bounce">
@@ -62,16 +62,19 @@
                     
                    <ul class="navbar-nav ml auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="">Browse</a>
+                            <a class="nav-link" href="\#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Discover</a>
+                            <a class="nav-link" href="\#features">Features</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="">Radio</a>
+                            <a class="nav-link" href="\#Music-adds">Latest</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="\#pricing">Pricing</a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <!-- <li class="nav-item dropdown">
                            
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                                     aria-haspopup="true" aria-expanded="false">
@@ -88,7 +91,7 @@
                                     <a class="dropdown-item" href="#">Advertise</a>
                                 </div>
 
-                         </li>
+                         </li> -->
 
                          <li class="nav-item"><button class="btn btn-outline-light user-in">Login</button> </li>   
                          <li class="nav-item"><button class="btn btn-outline-light user-in">SignUp</button> </li>
@@ -120,9 +123,7 @@
                 </div>
                 
                 <div class="col-lg-6">
-                       <div class="img">
-                            <img class="casset-img" src="images/cast.png" alt="casset-img">
-                       </div>
+                    <img class="casset-img" src="images/cast.png" alt="casset-img">
                 </div>
         
             </div>
@@ -173,7 +174,7 @@
             </div>
             <div class="feature-box col-lg-4">
                 <i class="icon far fa-bullseye fa-5x"></i>
-                <h2>High Quality Soungs</h2>
+                <h2>High Quality Sounds</h2>
                 <p>Get high quality songs at amazing cost.</p>
             </div>
         </div>
@@ -188,7 +189,8 @@
         <div class="descrip">
             <i class="icon-des far fa-ellipsis-h fa-5x"></i>
             <h2>Description</h2>
-            <p class="des-text">Amazing songs for your daily dose of enjoyment makes you fresh and refresh your mind</p>
+            <p class="des-text">Amazing songs for your daily dose of enjoyment makes you fresh and refresh your mind<br>Feel 
+                free to enjoy the songs and make your mood fresh and chill.</p>
             <i class="icon-des far fa-ellipsis-h fa-5x"></i>
         </div>
     </section>
@@ -201,31 +203,31 @@
           <div class="title-style text-center Music-title">
               <h2>Latest Songs</h2>
           </div>
-          <div class="container">
+          <div class="container music-con">
               <div class="row">
                   <div class="col-md-4" text-center>
                       <div class="Music-1">
                           <img src="images/m1.jfif">
-                          <button type="button" class="btn-buy">PLay</button>
+                          <!-- <button type="button" class="btn-buy">PLay</button> -->
                           <div class="overlay"></div>
                       </div>
-                      <h4 class="text-center">Songs by language</h4>
+                      <h4 class="text-center">By language</h4>
                   </div>
                   <div class="col-md-4" text-center>
                       <div class="Music-1">
                           <img src="images/m2.jfif">
-                          <button type="button" class="btn-buy">Play</button>
+                          <!-- <button type="button" class="btn-buy">Play</button> -->
                           <div class="overlay"></div>
                       </div>
-                      <h4 class="text-center">Latest Collection</h4>
+                      <h4 class="text-center">By Singers</h4>
                   </div>
                   <div class="col-md-4">
                       <div class="Music-1" text-center>
                           <img src="images/m3.jfif">
-                          <button type="button" class="btn-buy">Play</button>
+                          <!-- <button type="button" class="btn-buy">Play</button> -->
                           <div class="overlay"></div>
                       </div>
-                      <h4 class="text-center">Download</h4>
+                      <h4 class="text-center">By Mood</h4>
                   </div>
               </div>
           </div>
@@ -238,11 +240,107 @@
     
       <!-- pricing-dection -->
 
-    <section class="pricing">
-        <div class="">
+    <section id="pricing">
+        <h2>Plans For Every Music Lovers</h2>
+        <p>High quality songs at amazing price </p>
+       
 
+<div class="row">
+
+   <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-head" >Basic</h3>
+            </div>
+            <i class="icon-pricing far fa-ellipsis-h fa-3x"></i>
+            <div class="card-body">
+                <h2>Free</h2>
+                <p>5 Downloads Per Month</p>
+                <p>Access To Playlist</p>
+                <p>New Songs</p>
+                <button type="button" class="btn btn-lg  btn-outline-dark">Sign Up</button>
+            </div>
         </div>
-    </section>
+   </div> 
+
+    <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-head">Music Listeners</h3>
+            </div>
+            <i class="icon-pricing far fa-ellipsis-h fa-3x"></i>
+            <div class="card-body">
+                <h2><i class="fas fa-rupee-sign"></i> 49 /month</h2>
+                <p>20 Downloads Per Month</p>
+                <p>Access To Playlist</p>
+                <p>High Qulaity Audio Songs</p>
+                <p>Create Your Playlist</p>
+                <button type="button" class="btn btn-lg  btn-dark">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="pricing-column col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-head">Music Lovers</h3>
+            </div>
+            <i class="icon-pricing far fa-ellipsis-h fa-3x"></i>
+            <div class="card-body">
+                <h2><i class="fas fa-rupee-sign"></i> 150 /month</h2>
+                <p>Unlimited Downloads</p>
+                <p>Access to All Playlist</p>
+                <p>High Quality Audio Songs</p>
+                <p>Publish & Listen Podcast</p>
+                <button type="button" class="btn btn-lg  btn-dark">Sign Up</button>
+            </div>
+        </div>
+    </div>
+        
+    </div>
+</section>
     
+
+
+  <!-- Footer -->
+
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <img class="mb-4" src="images/music-player.png" alt="" width="30"height="30">
+            <small class="d-block mb-3 text-muted">© 2020-2021</small>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Features</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Cool stuff</a></li>
+                <li><a class="text-muted" href="#">Random feature</a></li>
+                <li><a class="text-muted" href="#">Team feature</a></li>
+                <li><a class="text-muted" href="#">Stuff for developers</a></li>
+                <li><a class="text-muted" href="#">Another one</a></li>
+                <li><a class="text-muted" href="#">Last time</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Resource</a></li>
+                <li><a class="text-muted" href="#">Resource name</a></li>
+                <li><a class="text-muted" href="#">Another resource</a></li>
+                <li><a class="text-muted" href="#">Final resource</a></li>
+            </ul>
+        </div>
+        <div class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+                <li><a class="text-muted" href="#">Team</a></li>
+                <li><a class="text-muted" href="#">Locations</a></li>
+                <li><a class="text-muted" href="#">Privacy</a></li>
+                <li><a class="text-muted" href="#">Terms</a></li>
+            </ul>
+        </div>
+      </div>
+   </footer>
+</div>
     </body>
 </html>
